@@ -1,0 +1,426 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color:#242424;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ---------------nav------------------- */
+
+nav {
+    background-color: black;
+    width: 40%;
+    float: inline-start;
+    height: 50rem;
+    position: fixed;
+}
+
+.logo img {
+    width: 130px;
+    height: 40px;
+    margin: 25px;
+}
+
+.up-nav ul li {
+    margin: -15px 12px 10px;
+    padding: 10px;
+}
+
+.up-nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+
+.up-nav ul li a:hover {
+    color: #fff;
+}
+
+.up-nav ul:last-child {
+    margin-top: 28px;
+}
+
+.material-symbols-outlined {
+    margin-right: 20px;
+    position: relative;
+    top: 5px;
+}
+
+
+.nav2 {
+    margin-top: 4rem;
+}
+
+.down-nav ul {
+    display: flex;
+    position: relative;
+    right: 20px;
+}
+
+.down-nav ul li {
+    margin: 0px 8px;
+}
+
+.down-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.cookies {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    left: 28px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.lang a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    left: 28px;
+    border: #fff 1px solid;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 3px 16px;
+}
+
+/* ----------------header---------------- */
+
+section {
+    background-color: #242424;
+    width: 77%;
+    height: 88rem;
+    position: relative;
+    left: 23.5%;
+}
+
+section header {
+    height: 64px;
+    background-color: #0f0f0f;
+}
+
+
+header .Focus {
+    position: relative;
+    top: 14px;
+    left: 30px;
+    color: #707070;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+header .Focus a {
+    color: #707070;
+    cursor: not-allowed;
+}
+
+header .head {
+    text-align: end;
+    position: relative;
+    right: 9rem;
+    bottom: 8px;
+    z-index: 1;
+}
+
+header .head a {
+    margin: 13px;
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+header .head a:hover {
+    font-size: 16px;
+    color: #fff;
+}
+
+header .login {
+    text-align: end;
+    position: relative;
+    right: 1.5rem;
+    bottom: 27px;
+}
+
+header .login a {
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+    border: 1px solid;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 15px 25px;
+}
+
+header .login a:hover {
+    padding: 17px 27px;
+}
+
+.menu {
+    margin: 25px;
+}
+
+.menu .all {
+    position: relative;
+    left: 0.5rem;
+    font-size: 22px;
+    font-weight: 800;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu .all:hover {
+    text-decoration: underline;
+}
+
+.menu .show {
+    position: relative;
+    left: 53rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.menu .show:hover {
+    text-decoration: underline;
+}
+
+.menu .show2{
+    position: relative;
+    left: 46rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.menu .show2:hover {
+    text-decoration: underline;
+}
+
+/* ----------------------Article------------------- */
+
+.contianer {
+    display: flex;
+    margin: 10px 18px;
+}
+
+/* ----------picture 1------------ */
+
+.contianer .pic1 {
+    background-color: #1f1e1e;
+    margin-left: 14px;
+    width: 300px;
+    height: 310px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.contianer .pic1:hover{
+    background-color: #2e2e2e;
+}
+
+.contianer .pic1 img {
+    width: 11.8rem;
+    position: relative;
+    left: 16px;
+    top: 16px;
+    border-radius: 5px;
+}
+
+/* ---------------------item------------------------------ */
+
+.contianer h5 {
+    color: #fff;
+    margin-left: 14px;
+    position: relative;
+    top: 10px;
+}
+
+.contianer p {
+    color: #707070;
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.contianer a{
+    text-decoration: none;
+}
+
+
+/* ----------picture 2------------ */
+
+
+.contianer .pic2 {
+    background-color: #1f1e1e;
+    margin-left: 14px;
+    width: 300px;
+    height: 310px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.contianer .pic2:hover{
+    background-color: #2e2e2e;
+}
+
+.contianer .pic2 img {
+    width: 11.8rem;
+    position: relative;
+    left: 16px;
+    top: 16px;
+    border-radius: 5px;
+}
+
+
+/* ----------picture 3------------ */
+
+.contianer .pic3 {
+    background-color: #1f1e1e;
+    margin-left: 14px;
+    width: 300px;
+    height: 310px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.contianer .pic3 img {
+    width: 11.8rem;
+    position: relative;
+    left: 16px;
+    top: 16px;
+    border-radius: 5px;
+}
+
+.contianer .pic3:hover{
+    background-color: #2e2e2e;
+}
+
+/* ----------picture 4------------ */
+
+.contianer .pic4 {
+    background-color: #1f1e1e;
+    margin-left: 16px;
+    width: 300px;
+    height: 310px;
+    margin-right: 25px;
+    border-radius: 5px;
+}
+
+.contianer .pic4 img {
+    width: 11.8rem;
+    position: relative;
+    left: 16px;
+    top: 16px;
+    border-radius: 5px;
+}
+
+.contianer .pic4:hover{
+    background-color: #2e2e2e;
+}
+
+/*------------------------footer------------------------ */
+
+footer{
+    display: flex;
+    margin-top: 60px;
+    border-bottom: 1px solid #707070;
+    margin: 90px 45px;
+}
+
+.Company{
+    color: #fff;
+}
+
+.line1{
+    display: grid;
+}
+
+.line1 a{
+    color:#858585;
+    text-decoration: none;
+    margin-bottom: 15px;
+    width: 125px;
+    font-weight: 500;
+}
+
+.line1 a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.Communities{
+    margin:0 120px ;
+    color: #fff;
+}
+.line2{
+    display: grid;
+}
+
+.line2 a{
+    color:#858585;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.line2 a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.Uesful{
+    margin:0 30px;
+    color: #fff;
+    width: 40%;
+    padding-bottom:160px;
+}
+
+.line3{
+    display: grid;
+}
+
+.line3 a{
+    color:#adadad;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.line3 a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.Icon a img {
+    border-radius: 50%;
+    width: 12%;
+    height: 14%;
+    padding: 10px;
+    position: relative;
+    left: 120px;
+}
+
+.Icon a  :hover{
+    background-color: #858585;
+}
+
+h4{
+    position: relative;
+    left: 45px;
+    bottom: 35px;
+    color: #fff;
+}
+
+/* ----------------------------------------- */
+
